@@ -576,4 +576,7 @@ h2[id]::before {
 }
 .steps {
     padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
 }
