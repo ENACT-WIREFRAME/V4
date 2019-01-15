@@ -619,6 +619,37 @@ h2[id]::before {
     -webkit-transform-origin: center center;
     transform-origin: center center;
 }
+.f5 {
+    font-size: 1.5625rem;
+}
+
+.mt1 {
+    margin-top: .25rem;
+}
+.mr3 {
+    margin-right: 1rem;
+}
+.ml1 {
+    margin-left: .25rem;
+}
+.primary4 {
+    color: #4dabf7;
+}
+.fw6 {
+    font-weight: 600;
+}
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+.fa-layers {
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    text-align: center;
+    vertical-align: -0.125em;
+    width: 1em;
+}
 .f4 {
     font-size: 1.25rem;
 }
