@@ -675,3 +675,12 @@ h2[id]::before {
 .lh-copy {
     line-height: 1.5;
 }
+.flex-nowrap {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
