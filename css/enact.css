@@ -588,3 +588,6 @@ h2[id]::before {
     font-weight: bold;
     padding: 28px 10px;
 }
+.lead {
+    padding-top: 35px;
+}
