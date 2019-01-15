@@ -599,14 +599,7 @@ h2[id]::before {
     padding-top: 35px;
 }
 
-.fa-layers svg.svg-inline--fa {
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
+
 .fa-layers-counter, .fa-layers-text {
     display: inline-block;
     position: absolute;
@@ -620,37 +613,12 @@ h2[id]::before {
     -webkit-transform-origin: center center;
     transform-origin: center center;
 }
-.f5 {
-    font-size: 1.5625rem;
-}
 
-.mt1 {
-    margin-top: .25rem;
-}
-.mr3 {
-    margin-right: 1rem;
-}
-.ml1 {
-    margin-left: .25rem;
-}
-.primary4 {
-    color: #4dabf7;
-}
-.fw6 {
-    font-weight: 600;
-}
-.fa-fw {
-    text-align: center;
-    width: 1.25em;
-}
-.fa-layers {
-    display: inline-block;
-    height: 1em;
-    position: relative;
-    text-align: center;
-    vertical-align: -0.125em;
-    width: 1em;
-}
+
+
+
+
+
 .f4 {
     font-size: 1.25rem;
 }
@@ -683,4 +651,59 @@ h2[id]::before {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+.fa-layers {
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    text-align: center;
+    vertical-align: -0.125em;
+    width: 1em;
+}
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+.fw6 {
+    font-weight: 600;
+}
+.primary4 {
+    color: #4dabf7;
+}
+.ml1 {
+    margin-left: .25rem;
+}
+.mr3 {
+    margin-right: 1rem;
+}
+.mt1 {
+    margin-top: .25rem;
+}
+.f5 {
+    font-size: 1.5625rem;
+}
+
+.fa-layers svg.svg-inline--fa {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
 }
