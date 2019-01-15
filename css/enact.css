@@ -580,6 +580,12 @@ h2[id]::before {
     background-color: #e9ecef;
     border-radius: .3rem;
 }
+.steps img {
+    background-color: #fff;
+    border: solid 1px #6c757d;
+    border-radius: .3rem;
+    padding: 2px;
+}
 .brand img{
     margin-top: -2em;
 }
