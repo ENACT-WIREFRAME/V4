@@ -591,3 +591,49 @@ h2[id]::before {
 .lead {
     padding-top: 35px;
 }
+
+.fa-layers svg.svg-inline--fa {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.fa-layers-counter, .fa-layers-text {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.fa-layers-text {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+.f4 {
+    font-size: 1.25rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+.mb1 {
+    margin-bottom: .25rem;
+}
+.fw6 {
+    font-weight: 600;
+}
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.primary2 {
+    color: #a5d8ff;
+}
+.lh-copy {
+    line-height: 1.5;
+}
