@@ -584,7 +584,7 @@ h2[id]::before {
     background-color: #fff;
     border: solid 1px #6c757d;
     border-radius: .3rem;
-    padding: 2px;
+    padding: 15px;
 }
 .brand img{
     margin-top: -2em;
