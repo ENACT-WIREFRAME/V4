@@ -606,8 +606,8 @@ h2[id]::before {
     text-align: center;
 }
 .fa-layers-text {
-    left: 50%;
-    top: 50%;
+    left: 52%;
+    top: 40%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -webkit-transform-origin: center center;
